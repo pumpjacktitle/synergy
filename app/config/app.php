@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'YourSecretKey!!!',
+	'key' => 'pQ7EACCvUkCbGeWjffIuSJ5rOWzQPSMG',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -132,6 +132,8 @@ return array(
 
 		'Platform\Installer\Laravel\InstallerServiceProvider',
 		'Platform\Foundation\Laravel\PlatformServiceProvider',
+
+        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
 
 	),
 
